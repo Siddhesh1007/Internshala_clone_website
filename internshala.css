@@ -1,0 +1,371 @@
+ul {
+    list-style: none;
+}
+
+header {
+    margin: 15px 120px;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+#hr1 {
+    margin-top: -5px;
+    border-bottom: 2.5px solid silver;
+}
+
+header nav ul li {
+    padding-left: 80px;
+}
+
+#part1 ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    padding-top: 8px;
+}
+
+#part1 li:hover {
+    cursor: pointer;
+}
+
+#part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#part2 button {
+    margin-top: 6px;
+}
+
+#button1 {
+    color: rgb(1, 147, 238);
+    background-color: white;
+    border: 1.5px solid rgb(1, 147, 238);
+    border-radius: 3px;
+    height: 33px;
+    width: 80px;
+}
+
+#button2 {
+    color: white;
+    background-color: rgb(46, 175, 255);
+    border: 1.5px solid rgb(46, 175, 255);
+    border: none;
+    border-radius: 3px;
+    height: 33px;
+    width: 100px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+header nav img {
+    height: 6%;
+    width: 10%;
+}
+
+#searchbar {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#searchbar input:hover {
+    border: 1px solid rgb(0, 169, 236);
+}
+
+#searchbar i:hover {
+    background-color: rgb(1, 124, 240);
+}
+
+#searchbar input {
+    width: 30%;
+    height: 40px;
+    padding: 15px 20px;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+#searchbar i {
+    margin-left: -4.5px;
+    color: white;
+    background-color: rgb(1, 147, 238);
+    padding-bottom: 11px;
+    padding-top: 13.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+} 
+
+#salesPage {
+    background-color: #eeeeee;        
+}
+  
+.salesPage-images {
+    width: 100%;
+    height: 50%;
+    margin: 15px auto;
+}
+  
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+#trainings .group img {
+    margin-left: 10px;
+    height: 5%;
+    width: 7%;
+} 
+
+.li2 {
+    color: rgb(20, 173, 233);
+}
+
+#internships {
+    margin: 20px 0;
+    margin-right: 120px;
+    margin-left: 180px;
+}
+
+#internships ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: -30px;
+}
+
+#internships ul li{
+    font-size: 19px;
+    font-weight: 350;
+}
+
+#cities {
+    display: flex;
+    flex-direction: row;   
+    margin-bottom: 90px;    
+}
+
+#cities img {
+    height: 100%;
+    width: 100%;
+}   
+
+#cities p {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: 550;
+}
+
+.sample1 {
+    padding: 0 8px;
+}
+
+.sample1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#categories {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px; 
+}
+
+#categories img {
+    height: 100%;
+    width: 100%;
+}
+
+#categories p {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: 550;
+}
+
+.sample2 {
+    padding: 0 8px;
+}
+
+.sample2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#trainings {
+    margin: 20px 0;
+    margin-right: 120px;
+    margin-left: 180px;
+}
+
+#trainings ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: -30px;
+}
+
+#trainings ul li{
+    font-size: 19px;
+    font-weight: 350;
+}
+
+#trainings p {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: 550;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;  
+}
+
+#skills img {
+    height: 100%;
+    width: 100%;
+}
+
+#skills p {
+    text-align: center;
+    margin-top: -5px;
+    font-weight: 550;
+}
+
+.sample3 {
+    padding: 0 8px;
+}
+
+.sample3:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#fresher-jobs {
+    margin: 20px 0;
+    margin-right: 120px;
+    margin-left: 180px;
+}
+
+#fresher-jobs ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: -30px;
+}
+
+#fresher-jobs ul li{
+    font-size: 19px;
+    font-weight: 350;
+}
+
+#jobs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 90px;
+}
+
+#jobs img {
+    height: 50%;
+    width: 50%;
+    padding-left: 40px;
+    margin-left: 150px;
+} 
+
+#jobs p {
+    margin-left: 180px;
+    margin-top: -5px;
+    font-weight: 640;
+}
+
+.sample4 {
+    padding: 0 8px;
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;   
+    padding: 45px 80px   ;
+}
+
+footer li:hover {
+    cursor: pointer;
+}
+
+#foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#foot1 hr {
+    border: 2.  5px solid silver;
+}
+
+.columns {
+    line-height: 2;
+}
+
+#foot2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px   ;
+}
+
+#foot2 button {
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 6%;
+    width: 20%;
+    margin-left: 90px;
+}
+
+#foot2 img {
+    height: 15%;
+    width: 15%;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#socialmedia {
+    display: flex;
+    flex-direction: row;
+}
+
+#socialmedia i {
+    background-color: rgb(49, 49, 49);
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 13px;
+}   
+
+#socialmedia i:hover {
+    cursor: pointer;
+}
+
+section {
+    margin-left: 470px;
+    margin-top: 10px;
+}
